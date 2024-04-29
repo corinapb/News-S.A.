@@ -1,0 +1,9 @@
+.favoriteButton {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.favoriteButton img {
+  width: 20px;
+}

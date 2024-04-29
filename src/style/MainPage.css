@@ -1,0 +1,45 @@
+.mainPage{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: whitesmoke;
+}
+
+main {
+  width: 80%;
+  max-width: 1800px;
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.moreNews {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.filters {
+  height: 67px;
+  background-color: white;
+  margin-bottom: 30px;
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 27px;
+  text-align: left;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  max-width: 1394px;
+}
+
+.moreNewsWithButton {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
