@@ -16,3 +16,16 @@ header h1 {
   margin-left: 20px;
   font-size: 45px;
 }
+
+@media ( max-width : 480px ) {
+
+  header img {
+    width: 60px;
+  }
+
+  header h1 {
+    font-size: 25px;
+    margin-left: 10px;
+  }
+
+}

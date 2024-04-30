@@ -22,3 +22,16 @@
   align-self: flex-end;
 }
 
+@media ( max-width : 480px ) {
+  .newsCard {
+    width: 80%;
+    height: 400px;
+    font-size: 14px;
+  } 
+
+  .newsCardDiv {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 10px;
+  }
+}
